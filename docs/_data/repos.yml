@@ -1,0 +1,17 @@
+# Repos shown in the homepage grid.
+# Add one entry per repo you want to feature.
+- name: DigMz.github.io
+  url: https://github.com/DigMz/DigMz.github.io
+  description: The homepage you're on! Built with Jekyll and hosted on GitHub Pages.
+
+- name: VE2D
+  url: https://github.com/DigMz/VE2D
+  description: 2.5D Game Engine, written with Vulkan, SDL3, and C++.
+
+- name: PunchKO
+  url: https://github.com/DigMz/PKO_CSCI-3326-Final
+  description: Simple 2D Boxing Game, written in OpenGL, SDL, and Java as OOP Java Class Final Project.
+
+- name: NixOS Dotfiles
+  url: https://github.com/DigMz/nixos-dotfiles
+  description: Dotfiles for my NixOS Linux System
