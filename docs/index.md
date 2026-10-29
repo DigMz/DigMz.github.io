@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>
-Programming Extraordinaire
+Current Projects and Best Work
 </h1>
 
 <div class="repo-grid">
@@ -15,7 +15,7 @@ Programming Extraordinaire
   {% endfor %}
 </div>
 
-<h2 class="post-list-heading" style="margin-top: 45px;">Posts</h2>
+<h2 class="post-list-heading" style="margin-top: 45px;">Blog</h2>
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
