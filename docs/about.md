@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Undergraduate Student at the University of Texas Rio Grande Valley
+Open to internships and open to work.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I have expertise in C++, Rust, Java;
+Libraries such as Vulkan, OpenGL, SDL3, and more;
+Linux Environments including VSCode, Neovim, Vim, etc;
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can find my github at: [DigMz](https://github.com/DigMz)
 
-
-[jekyll-organization]: https://github.com/jekyll
+You can find the source code for this site at GitHub: [DigMz.github.io](https://github.com/DigMz/DigMz.github.io)
