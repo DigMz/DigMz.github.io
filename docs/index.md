@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<h1>
-Current Projects and Best Work
-</h1>
-
+<h1 class="repo-grid-heading">Current Projects and Best Work</h1>
 <div class="repo-grid">
   {% for repo in site.data.repos %}
   <a class="repo-card" href="{{ repo.url }}">
@@ -15,7 +12,7 @@ Current Projects and Best Work
   {% endfor %}
 </div>
 
-<h2 class="post-list-heading" style="margin-top: 45px;">Blog</h2>
+<h2 class="post-list-heading" style="margin-top: 45px; margin-bottom: 30px;">Blog</h2>
 <ul class="post-list">
   {% for post in site.posts %}
   <li>

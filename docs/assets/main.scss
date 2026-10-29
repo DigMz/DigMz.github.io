@@ -3,6 +3,22 @@
 
 @import "minima";
 
+.repo-grid-heading,
+.post-list-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: $brand-color;
+    margin: 0 15px;
+  }
+}
+
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -35,6 +51,20 @@
   color: $grey-color-dark;
 }
 
+.post-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.post-list > li {
+  padding-bottom: $spacing-unit / 2;
+  border-bottom: 1px solid $grey-color-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   $dark-background: #181818;
   $dark-text: #e6e6e6;
@@ -52,6 +82,10 @@
 
     &:visited {
       color: lighten($brand-color, 15%);
+    }
+
+    &:hover {
+      color: $dark-text;
     }
   }
 
@@ -108,5 +142,9 @@
 
   .repo-card__description {
     color: $dark-grey-dark;
+  }
+
+  .post-list > li {
+    border-bottom-color: $dark-grey-light;
   }
 }
